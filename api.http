@@ -1,0 +1,12 @@
+# get
+GET http://127.0.0.1:8000/cats/
+
+# первый запрос
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+    "name":"Pizshick",
+    "color":"yellow",
+    "birth_year": 2019
+}
