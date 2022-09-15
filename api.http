@@ -11,3 +11,13 @@ Content-Type: application/json
     "color":"yellow",
     "birth_year": 2019
 }
+
+# fgfg
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{   
+    "name":"Антон",
+    "color":"yellow",
+    "birth_year": 2019
+}
